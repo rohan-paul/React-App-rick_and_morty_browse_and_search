@@ -16,17 +16,6 @@ export default class Card extends Component {
     this.props.changeActiveCard(character)
   }
 
-  displayStuff = () => {
-    return <Attributes character={this.props.character} />
-  }
-
-  dotheOtherThing = () => {
-    return this.state.showAttributes ? (
-      <Attributes character={this.props.character} />
-    ) : (
-      "CLICK ME"
-    )
-  }
   render() {
     const { character } = this.props
     return (
@@ -37,7 +26,6 @@ export default class Card extends Component {
         <h3>{character.name}</h3>
         <img src={character.image} alt="name" />
         <Attributes character={this.props.character} />
-        {/* {this.props.id ? this.displayStuff() : this.dotheOtherThing()} */}
       </div>
     )
   }

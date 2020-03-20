@@ -53,3 +53,7 @@
   color: #fff;
   border-radius: 5px;
 }
+
+.spinner {
+  width: 60px;
+}
