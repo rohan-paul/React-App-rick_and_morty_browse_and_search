@@ -1,0 +1,26 @@
+{
+  "workbench.colorTheme": "Sunburst",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.enable": true,
+  "eslint.run": "onSave",
+  "eslint.alwaysShowStatus": true,
+  "files.exclude": {
+    "node_modules": true,
+    "android": true,
+    "coverage": true,
+    "ios": true,
+    "yarn.lock": true,
+    ".babelrc": true,
+    ".serverless": true,
+    ".webpack": true,
+    ".git*": true,
+    ".buckconfig": true,
+    ".flowconfig": true,
+    ".watchmanconfig": true,
+    "build": true
+  }
+}
