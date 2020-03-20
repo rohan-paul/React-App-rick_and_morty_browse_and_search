@@ -1,5 +1,6 @@
 .App {
   padding: 20px;
+  text-align: center;
 }
 .main-container {
   display: flex;
@@ -31,4 +32,24 @@
 .attributes-container {
   border: 2px solid greenyellow;
   padding: 10px;
+}
+
+.app {
+  text-align: center;
+}
+
+.input {
+  font-size: 18px;
+  padding: 5px 15px;
+  color: #3b3a3a;
+}
+
+.button {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  margin-left: 5px;
+  background-color: #22ae40;
+  color: #fff;
+  border-radius: 5px;
 }
