@@ -30,3 +30,7 @@ export default class Card extends Component {
     )
   }
 }
+/* Paul note - In the line
+onClick={() => (this.props.id ? null : this.handleClick(character))}
+I dont need the conditional to invoke the function
+ */
